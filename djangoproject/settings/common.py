@@ -138,6 +138,10 @@ MIDDLEWARE_CLASSES = [
     'django_hosts.middleware.HostsResponseMiddleware',
 ]
 
+MIGRATION_MODULES = {
+    'registration': 'migrations.registration',
+}
+
 ROOT_URLCONF = 'djangoproject.urls.www'
 
 SECRET_KEY = str(SECRETS['secret_key'])
