@@ -2,7 +2,8 @@ certifi==14.05.14
 Django==1.8
 django-contact-form==1.0
 django-flat-theme==0.9.3
-django-hosts==1.1
+# django-hosts==1.2
+-e git+https://github.com/jezdez/django-hosts@7cf5a9db164d1e1a6ed82363982d88b1176d1ba3#egg=django-hosts
 django-push==0.6.1
 django-registration-redux==1.1
 django-secure==1.0.1
@@ -17,6 +18,7 @@ psycopg2==2.6
 pygments==2.0.2
 pykismet3==0.1.1
 requests==2.5.1
-sorl-thumbnail==12.2
+# sorl-thumbnail==12.3
+-e git+https://github.com/mariocesar/sorl-thumbnail@5568c79fe29d011a876ef6e7453794079dc4f0aa#egg=sort-thumbnail
 stripe==1.20.1
 Sphinx==1.2.3
